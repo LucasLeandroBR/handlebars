@@ -225,7 +225,6 @@ header {
   height: 135px;
   width: 95%;
   display: inline-block;
-  border: 2px solid rgba(250, 250, 250, 0.5);
 }
 
 .sidebar-navigation .logo em {
