@@ -1,0 +1,130 @@
+/* 
+
+Sentra Template
+
+https://templatemo.com/tm-518-sentra
+
+*/
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 800px;
+  max-height: none;
+  background-color: rgba(235,235,235,1.00)
+}
+
+
+table, th, td {
+  height: 49.99px;
+  border: 1px solid black;
+
+}
+
+div .map {
+  height: 2620px;
+  width: 1812;
+  position: relative;	
+	
+}
+
+iframe {
+    display: block;
+    width: 720px;
+    height: 450px;
+    margin: 0 auto;
+    border: 0;
+}
+
+area:focus {
+  outline:none;
+	
+}
+
+.map-x-pin {
+  background-color: black; /* So we can see where the pixel is */
+  height: 1px;
+  position: absolute;
+  width: 1px;
+}
+
+.map-x-pin:after {
+  background-image: url("marker.png"); /* Decorative, this could be an image too */
+  bottom: 100%;
+  content: '';
+  display: block;
+  left: -10px; /* Half of the width, give or take a pixel */
+  position: absolute;
+  height: 70px;
+  width: 50px;
+}
+
+div .talking {
+  left: 16px;
+  top: 2342px;
+  position: absolute;
+
+}
+
+.talking:hover {
+  display:block;
+}
+
+
+div .talking {
+  pointer-events: none;
+  width: 400px;
+  height: 280px;
+	
+}
+
+div .talking:hover {
+  pointer-events: none;
+  width: 400px;
+  height: 280px;
+  background-image: url("hoverplaces/talkingisland.png");
+
+}
+
+.talking:hover span{
+    display:block;
+}
+
+span{
+	border-radius: 25px;
+    background: #F8F8F8;
+    border: 5px solid #f82a00;
+    color: #151515;
+    font-size: 13px;
+    height: 40px;
+	width: 150px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    left: 63px;
+    display:none;
+    padding:0 20px;
+    
+}
+span:after{
+    content:'';
+    position:absolute;
+    bottom:-10px; 
+    width:10px;
+    height:10px;
+    border-bottom:5px solid #f82a00;
+    border-right:5px solid #f82a00;
+    background: #F8F8F8;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.list { 
+  max-width: 100%;
+  height: auto;
+}
