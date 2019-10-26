@@ -621,7 +621,7 @@ https://templatemo.com/tm-518-sentra
 
         data() {
             return {
-                postsUrl: 'https://omassivo.com.br/omassivo/wp-json/wp/v2/posts',
+                postsUrl: 'https://lu4project.000webhostapp.com/wp-json/wp/v2/posts?_embed',
                 posts: [],
                 postsData: {
                     per_page: 6,
@@ -635,6 +635,7 @@ https://templatemo.com/tm-518-sentra
               axios.get(this.postsUrl, {params: this.postsData})
                      .then((response) => {
                         this.posts = response.data;
+                        console.log(response.data)
                         this.configPagination(response.headers);
                     })
                     .catch( (error) => {
