@@ -12,8 +12,11 @@
     Version: 1.0.0
 
 Author: Lucas Leandro
+
 Website: https://github.com/lucasleandrobr
+
 Repo: https://github.com/LucasLeandroBR/lua4dev
+
 Relatar um problema: https://github.com/LucasLeandroBR/lua4dev/issues
 
     ## Requerimentos
